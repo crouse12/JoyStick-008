@@ -1,6 +1,6 @@
 //% weight=0 color=#3CB371 icon="\uf0ad" block="Tools"
 namespace tools {
-    //% blockId="x" block="x axis"
+    //% blockId="x" block="X axis"
     export function x(): number {
         return pins.analogReadPin(AnalogPin.P2)
     }
