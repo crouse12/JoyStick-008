@@ -1,5 +1,5 @@
-//% weight=0 color=#3CB371 icon="\uf0ad" block="Tools"
-namespace tools {
+//% weight=0 color=#3CB371 icon="\uf0ad" block="JoyStick"
+namespace JoyStick {
     //% blockId="x" block="X axis"
     export function x(): number {
         return pins.analogReadPin(AnalogPin.P2)
