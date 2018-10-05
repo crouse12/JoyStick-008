@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/tools-strings.json"
+        "_locales/zh/JoyStick-strings.json"
     ],
     "public": true
 }
