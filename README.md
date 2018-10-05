@@ -1,6 +1,6 @@
-# tools
+# JoyStick
 
-這是專為測試用的micro:bit積木
+Micro:Bit搖桿專用積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-tools=github:crouse12/pxt-tools1
+JoyStick=github:crouse12/JoyStick
 ```
