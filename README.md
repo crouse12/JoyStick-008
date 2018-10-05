@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-tools=github:crouse12/pxt-tools
+tools=github:crouse12/pxt-tools1
 ```
