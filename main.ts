@@ -6,7 +6,7 @@ namespace JoyStick {
         return pins.analogReadPin(AnalogPin.P2)
     }
     //% blockId="y" block="Y axis" 
-    //% weight=1
+    //% weight=0
     export function y(): number {
         return pins.analogReadPin(AnalogPin.P1)
     }
