@@ -1,10 +1,10 @@
 {
-    "tools|block": "工具",
-    "tools.x|block": "X軸",
-    "tools.y|block": "Y軸", 
-    "tools.c|block": "C鍵",
-    "tools.d|block": "D鍵",
-    "tools.e|block": "E鍵",
-    "tools.f|block": "F鍵",
-    "tools.ledOfRectangle|block": "LED顯示長方形面積 長 %length|寬 %width"
+    "JoyStick|block": "搖桿",
+    "JoyStick.x|block": "X軸",
+    "JoyStick.y|block": "Y軸", 
+    "JoyStick.c|block": "C鍵",
+    "JoyStick.d|block": "D鍵",
+    "JoyStick.e|block": "E鍵",
+    "JoyStick.f|block": "F鍵",
+    "JoyStick.ledOfRectangle|block": "LED顯示長方形面積 長 %length|寬 %width"
 }
