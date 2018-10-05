@@ -24,6 +24,14 @@ namespace JoyStick {
     export function f(): number {
         return pins.digitalReadPin(DigitalPin.P12)
     }
+            //% blockId="a" block="Button A"
+    export function a(): number {
+        return pins.digitalReadPin(DigitalPin.P5)
+    }
+            //% blockId="b" block="Button B"
+    export function b(): number {
+        return pins.digitalReadPin(DigitalPin.P11)
+    }
     //% blockId="motor" block="Start vibration motor %value"
     export function motor(value: number) {
        pins.digitalWritePin(DigitalPin.P16, value)
