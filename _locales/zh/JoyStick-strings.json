@@ -1,1 +1,9 @@
-
+{
+    "JoyStick|block": "搖桿",
+    "JoyStick.x|block": "X軸",
+    "JoyStick.y|block": "Y軸", 
+    "JoyStick.c|block": "C鍵",
+    "JoyStick.d|block": "D鍵",
+    "JoyStick.e|block": "E鍵",
+    "JoyStick.f|block": "F鍵"
+}
