@@ -36,7 +36,7 @@ namespace JoyStick {
         return pins.digitalReadPin(DigitalPin.P5)
     }
             //% blockId="b" block="Button B" 
-            //% weight=5
+            //% weight=6
     export function b(): number {
         return pins.digitalReadPin(DigitalPin.P11)
     }
