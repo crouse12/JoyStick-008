@@ -6,5 +6,7 @@
     "JoyStick.d|block": "D鍵",
     "JoyStick.e|block": "E鍵",
     "JoyStick.f|block": "F鍵",
+    "JoyStick.a|block": "A鍵",
+    "JoyStick.b|block": "B鍵",
     "JoyStick.motor|block": "震動馬達 %value"
 }
