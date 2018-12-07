@@ -1,7 +1,7 @@
 {
-    "name": "JoyStick",
-    "version": "0.0.1",
-    "description": "這是micro:bit的JoyStick積木",
+    "name": "ScrollText",
+    "version": "0.1",
+    "description": "這是micro:bit的ScrollText積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
