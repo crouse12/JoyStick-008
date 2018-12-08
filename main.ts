@@ -55,7 +55,9 @@ namespace JoyStick {
     }
     
        export enum motor {
+               //% block="OFF"
                OFF=0,
+               //% block="ON"
                ON=1
        }
         
