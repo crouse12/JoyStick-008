@@ -22,15 +22,10 @@ namespace JoyStick {
         //% block="Y"
         Y
     } 
-       export enum check{
-        //% block="click"
-        click,
-        //% block="not_click"
-        not_click
-    }
-    //% blockId=buttonclick block="Check button %which_button  %click"
+
+    //% blockId=buttonclick block="on button | %which_button | pressed"
     //% weight=70  blockInlineInputs=true
-    export function buttonclick(which_button: button, click: check, handler: Action): void {
+    export function buttonclick(which_button: button): void {
 
     }
      //% blockId=getXY block="joystick's  %joystickXY"
