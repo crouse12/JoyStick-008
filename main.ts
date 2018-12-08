@@ -22,12 +22,6 @@ namespace JoyStick {
         //% block="Y"
         Y
     } 
-
-    //% blockId=buttonclick block="on button | %which_button | pressed"
-    //% weight=70  blockInlineInputs=true
-    export function buttonclick(which_button: button): void {
-
-    }
      //% blockId=getXY block="joystick's  %joystickXY"
     //% weight=100
     export function getXY(joystickXY: XY): number {
