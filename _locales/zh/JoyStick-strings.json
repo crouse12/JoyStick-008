@@ -1,12 +1,15 @@
 {
     "JoyStick|block": "搖桿",
-    "JoyStick.x|block": "X軸",
-    "JoyStick.y|block": "Y軸", 
-    "JoyStick.c|block": "C鍵",
-    "JoyStick.d|block": "D鍵",
-    "JoyStick.e|block": "E鍵",
-    "JoyStick.f|block": "F鍵",
-    "JoyStick.a|block": "A鍵",
-    "JoyStick.b|block": "B鍵",
-    "JoyStick.motor|block": "震動馬達 %value"
+    "JoyStick.XY.X|block": "X軸",
+    "JoyStick.XY.Y|block": "Y軸", 
+    "JoyStick.button.C|block": "C鍵",
+    "JoyStick.button.D|block": "D鍵",
+    "JoyStick.button.E|block": "E鍵",
+    "JoyStick.button.F|block": "F鍵",
+    "JoyStick.button.A|block": "A鍵",
+    "JoyStick.button.B|block": "B鍵",
+    "JoyStick.button.SW|block": "SW鍵",
+    "JoyStick.getXY|block": "搖桿的  %joystickXY",
+    "JoyStick.motor|block": "啟動 震動 馬達 %value",
+    "JoyStick.getbutton|block": "搖桿按鈕 %ABCDEF"
 }
