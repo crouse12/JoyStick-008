@@ -38,19 +38,19 @@ namespace JoyStick {
     export function getbutton(ABCDEF: button): number {
         switch (ABCDEF){
             case button.A:
-                return pins.analogReadPin(AnalogPin.P5);
+                return pins.digitalReadPin(DigitalPin.P5);
             case button.B:
-                return pins.analogReadPin(AnalogPin.P11);
+                return pins.digitalReadPin(DigitalPin.P11);
             case button.C:
-                return pins.analogReadPin(AnalogPin.P15);
+                return pins.digitalReadPin(DigitalPin.P15);
             case button.D:
-                return pins.analogReadPin(AnalogPin.P14);
+                return pins.digitalReadPin(DigitalPin.P14);
             case button.E:
-                return pins.analogReadPin(AnalogPin.P13);
+                return pins.digitalReadPin(DigitalPin.P13);
             case button.F:
-                return pins.analogReadPin(AnalogPin.P12);
+                return pins.digitalReadPin(DigitalPin.P12);
             case button.SW:
-                return pins.analogReadPin(AnalogPin.P8);
+                return pins.digitalReadPin(DigitalPin.P8);
         }
     }
     
