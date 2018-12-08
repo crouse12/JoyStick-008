@@ -33,7 +33,7 @@ namespace JoyStick {
         }
     }
     
-    //% blockId="getbutton" block="value of button %ABCDEF" 
+    //% blockId="getbutton" block="value of JoyStick button %ABCDEF" 
     //% weight=0
     export function getbutton(ABCDEF: button): number {
         switch (ABCDEF){
