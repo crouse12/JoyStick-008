@@ -22,7 +22,7 @@ namespace JoyStick {
         //% block="Y"
         Y
     } 
-     //% blockId=getXY block="joystick's  %joystickXY"
+     //% blockId=getXY block="Joystick's  %joystickXY"
     //% weight=100
     export function getXY(joystickXY: XY): number {
         switch (joystickXY) {
