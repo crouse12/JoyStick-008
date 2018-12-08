@@ -54,7 +54,8 @@ namespace JoyStick {
         }
     }
 
-    //% blockId="motor" block="Start vibration motor %value" weight=8
+    //% blockId="motor" block="Start vibration motor %value" 
+    //% weight=8
     export function motor(value: number) {
        pins.digitalWritePin(DigitalPin.P16, value)
     }
