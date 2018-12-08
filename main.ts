@@ -1,45 +1,59 @@
 //% weight=0 color=#3CB371 icon="\uf0ad" block="JoyStick"
 namespace JoyStick {
-    //% blockId="x" block="X axis" 
+        export enum button {
+        //% block="A"
+        A,
+        //% block="B"
+        B,
+        //% block="C"
+        C,
+        //% block="D"
+        D,
+        //% block="E"
+        E,
+        //% block="F"
+        F,
+        //% block="SW"
+        SW
+   }
+       export enum XY {
+        //% block="X"
+        X,
+        //% block="Y"
+        Y
+    }  
+     //% blockId=getXY block="joystick's  %joystickXY"
+    //% weight=100
+    export function getXY(joystickXY: XY): number {
+        switch (joystickXY) {
+            case XY.X: 
+                return (1023 - pins.analogReadPin(AnalogPin.P2));
+            case XY.Y: 
+                return pins.analogReadPin(AnalogPin.P1);
+        }
+    }
+    
+    //% blockId="getbutton" block="value of button %ABCDEF" 
     //% weight=0
-    export function x(): number {
-        return pins.analogReadPin(AnalogPin.P2)
+    export function getbutton(ABCDEF: button): number {
+        switch (ABCDEF){
+            case button.A:
+                return pins.analogReadPin(AnalogPin.P5);
+            case button.B:
+                return pins.analogReadPin(AnalogPin.P11);
+            case button.C:
+                return pins.analogReadPin(AnalogPin.P15);
+            case button.D:
+                return pins.analogReadPin(AnalogPin.P14);
+            case button.E:
+                return pins.analogReadPin(AnalogPin.P13);
+            case button.F:
+                return pins.analogReadPin(AnalogPin.P12);
+            case button.SW:
+                return pins.analogReadPin(AnalogPin.P8);
+        }
     }
-    //% blockId="y" block="Y axis" 
-    //% weight=0
-    export function y(): number {
-        return pins.analogReadPin(AnalogPin.P1)
-    }
-        //% blockId="c" block="Button C" 
-    //% weight=4
-    export function c(): number {
-        return pins.digitalReadPin(DigitalPin.P15)
-    }
-        //% blockId="d" block="Button D" 
-    //% weight=4
-    export function d(): number {
-        return pins.digitalReadPin(DigitalPin.P14)
-    }
-        //% blockId="e" block="Button E" 
-    //% weight=4
-    export function e(): number {
-        return pins.digitalReadPin(DigitalPin.P13)
-    }
-        //% blockId="f" block="Button F" 
-    //% weight=4
-    export function f(): number {
-        return pins.digitalReadPin(DigitalPin.P12)
-    }
-                //% blockId="a" block="Button A" 
-            //% weight=6
-    export function a(): number {
-        return pins.digitalReadPin(DigitalPin.P5)
-    }
-            //% blockId="b" block="Button B" 
-            //% weight=5
-    export function b(): number {
-        return pins.digitalReadPin(DigitalPin.P11)
-    }
+
     //% blockId="motor" block="Start vibration motor %value" weight=8
     export function motor(value: number) {
        pins.digitalWritePin(DigitalPin.P16, value)
