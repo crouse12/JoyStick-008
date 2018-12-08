@@ -21,7 +21,18 @@ namespace JoyStick {
         X,
         //% block="Y"
         Y
-    }  
+    } 
+       export enum check{
+        //% block="click"
+        click,
+        //% block="not_click"
+        not_click
+    }
+    //% blockId=buttonclick block="Check button %which_button  %click"
+    //% weight=70  blockInlineInputs=true
+    export function buttonclick(which_button: button, click: check, handler: Action): void {
+
+    }
      //% blockId=getXY block="joystick's  %joystickXY"
     //% weight=100
     export function getXY(joystickXY: XY): number {
