@@ -53,10 +53,15 @@ namespace JoyStick {
                 return pins.analogReadPin(AnalogPin.P8);
         }
     }
-
+    
+       export enum motor {
+               OFF=0,
+               ON=1
+       }
+        
     //% blockId="motor" block="Start vibration motor %value" 
     //% weight=8
-    export function motor(value: number) {
+    export function setmotor(value: motor) {
        pins.digitalWritePin(DigitalPin.P16, value)
     }
 }
