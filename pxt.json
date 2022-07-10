@@ -2,6 +2,7 @@
     "name": "JoyStick",
     "version": "0.2.0",
     "description": "這是micro:bit的JoyStick積木",
+    "icon": "icon.png",
     "license": "MIT",
     "dependencies": {
         "core": "*"
